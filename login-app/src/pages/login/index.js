@@ -11,8 +11,8 @@ function Login() {
     const [show, setShow] = useState(false)
 
     /* EVENTO PARA VISUALIZAR OU NÃO A SENHA */
-    const handleClick = (evento) => {
-        evento.preventDefault()
+    const handleClick = (e) => {
+        e.preventDefault()
         setShow(!show);
     }
 
